@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b18eeb43.css",
-    "main.js": "/static/js/main.fd05e8e2.js",
+    "main.js": "/static/js/main.0bfa7c5a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/ribbon1-edit7.png": "/static/media/ribbon1-edit7.53f347521c7c1d131c14.png",
     "static/media/nidsans-webfont.ttf": "/static/media/nidsans-webfont.6868f8897b9b864eb5d1.ttf",
@@ -9,11 +9,11 @@
     "static/media/event-horizon-2.jpg": "/static/media/event-horizon-2.815abe71eda29ce48cfe.jpg",
     "index.html": "/index.html",
     "main.b18eeb43.css.map": "/static/css/main.b18eeb43.css.map",
-    "main.fd05e8e2.js.map": "/static/js/main.fd05e8e2.js.map",
+    "main.0bfa7c5a.js.map": "/static/js/main.0bfa7c5a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b18eeb43.css",
-    "static/js/main.fd05e8e2.js"
+    "static/js/main.0bfa7c5a.js"
   ]
 }
