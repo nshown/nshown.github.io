@@ -1,0 +1,135 @@
+:root {
+  --anchor-blue: #54a4ba;
+  --white: #ffffff;
+}
+
+.home-title {
+  font-size: xxx-large;
+  margin: 0;
+}
+
+body {
+  font-family: "nidsans-webfont";
+}
+
+.app {
+  text-align: center;
+  background-color: #000000;
+  z-index: -2;
+  min-height: 100vh;
+}
+
+.app-main {
+  /* background-color: #000; */
+  /* min-height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  /* top: 60px; */
+  margin-top: 60px;
+  /* padding-top: 6%; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+a {
+  color: var(--anchor-blue);
+}
+
+.app .top-corner-img {
+  position: absolute;
+  top: -4%;
+  left: 0px;
+  max-width: 18%;
+  z-index: 1;
+}
+
+.app .bottom-corner-img {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  height: 94vh;
+  width: 100vw;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+a.glow:hover, .btn.glow:hover {
+  text-shadow:
+  /* 0 0 2px #0093bc, */ 0 0 5px #0093bc,
+    /* 0 0 10px #0093bc, */ 0 0 30px #6cabbd, 0 0 40px #6cabbd;
+}
+
+@media screen and (max-width: 500px) {
+  .hideable {
+    display: none;
+  }
+
+  .app-main{
+    /* top: 30px; */
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.fade-in img {
+  position: absolute;
+  left: -65px;
+  top: 0;
+  -webkit-animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2.4s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 2.4s;
+}
+
+/* #fade-img-1 {
+  background-color: lightblue;
+} */
+
+#fade-img-2 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  /* background-color: lightgreen; */
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  8.33333333333333% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  58.3333333333333% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  8.33333333333333% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  58.3333333333333% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
